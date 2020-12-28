@@ -1,5 +1,5 @@
 {
-	"name": "React Gold",
+	"name": "react-gold",
 	"version": "1.0.0",
 	"private": true,
 	"dependencies": {
@@ -20,7 +20,7 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"build": "react-scripts build && cd /home/shubham/wedios-files/ && cp .htaccess /home/shubham/public/build/ && cp db.php /home/shubham/public/build/",
+		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},

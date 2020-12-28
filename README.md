@@ -1,30 +1,28 @@
 ## Production Build
 
-[wedios.co](https://wedios.co)
+[example.com](https://example.com)
 
-## Wedios V2
+## PROJECT_NAME
 
-All in one video editor
+PROJECT_DESCRIPTION
 
 ## Credentials
 
 ### Admin
 
-Email: wedios.co@gmail.com
-Password: SJm3rzuXmU972fwf
+Email: admin@example.com
+Password: 6543210
 
 ### Normal User
 
-Email: team@wedios.co
-Password: teamwediosrocks
+Email: user@example.com
+Password: 0123456
 
-## Steps To Create Build on Wedios.co
+## Steps To Create Build
 
 ### Step 1 - SSH Login
 
-Run this command to login **in the directory where [wedios_co.pem](https://drive.google.com/file/d/1pRTuB_5zjV-YGKcgio8nI1086fxrTYIA/view?usp=sharing) file is present**
-
-#### `ssh -i wedios_co.pem shubham@wedios.co`
+#### `ssh example`
 
 ### Step 2 - Navigate into Project folder
 
@@ -36,7 +34,7 @@ Navigate into the git repo on server with this command
 
 Pull the latest code
 
-#### `git pull origin frontend`
+#### `git pull origin master`
 
 Install/Update Dependencies
 
@@ -44,6 +42,6 @@ Install/Update Dependencies
 
 ### Step 4 - Build
 
-Run build command, this will automatically remove existing build and put a new one. Additionally it will copy .htaccess and db.php to the root folder which is /home/wedios/public_html/frontend/wedios-react-node/build
+Run build command, this will automatically remove existing build and put a new one. Additionally it will copy .htaccess and db.php to the root folder
 
 #### `npm run build`
